@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Scores</string>
+    <string name="id">ID</string>
+    <string name="nombre">Name</string>
+    <string name="correo">email</string>
+    <string name="profesor">Teacher</string>
+    <string name="calificacion">Score</string>
+    <string name="insertar">Insert</string>
+    <string name="actualizar">Update</string>
+    <string name="borrar">Delete</string>
+    <string name="listar">List</string>
+    <string name="crud">CRUD</string>
+</resources>

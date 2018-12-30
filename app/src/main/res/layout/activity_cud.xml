@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CUDActivity">
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/id"
+        style="@style/campos"/>
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/nombre"
+        style="@style/campos"/>
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/correo"
+        style="@style/campos"/>
+
+    <EditText
+        android:id="@+id/etCal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/calificacion"
+        style="@style/campos"/>
+
+    <EditText
+        android:id="@+id/etProfesor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/profesor"
+        style="@style/campos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btInsertar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insertar"
+            style="@style/botones"/>
+
+        <Button
+            android:id="@+id/btActuralizar"
+            android:text="@string/actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/botones"/>
+
+        <Button
+            android:id="@+id/btBorrar"
+            android:text="@string/borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/botones"/>
+    </LinearLayout>
+</LinearLayout>
